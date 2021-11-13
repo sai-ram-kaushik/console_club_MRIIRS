@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-container{
+    background: #13154A;
+    box-shadow: 0px 8px 24px rgba(0,0,0,0.1);
+    height: 72px;
+    position: sticky;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+.nav-items li{
+    list-style: none;
+    margin-right: 100px;
+    margin-top: 13px;
+}
+.nav-iems li:nth-last-of-type(1){
+    margin: 0;
+}
+.nav-items li a {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Poppins",sans-serif;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.logo .logo-img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+.header-container{
+    position: absolute;
+    width: 1519px;
+    height: 949px;
+    background: rgba(19, 21, 74, 0.95);
+}
+.main-container .main-heading{
+    position: absolute;
+    width: 652px;
+    height: 111px;
+    left: 154px;
+    top: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 85px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.main-container .clg_name{
+    position: absolute;
+    width: 652px;
+    height: 111px;
+    left: 170px;
+    top: 215px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 65px;
+    line-height: 76px;
+
+    color: #FFFFFF;
+}
+ul li a:hover{
+    color: #9FEF00;
+}
+.main-container .about_club{
+    position: absolute;
+    width: 652px;
+    height: 111px;
+    left: 164px;
+    top: 300px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
