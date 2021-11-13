@@ -98,4 +98,10 @@ nav li a:hover{
 
     color: #FFFFFF;
 }
-
+.img-gif .gif{
+    width: 600px;
+    height: 350px;
+    margin-left: 700px;
+    margin-top: 90px;
+    color: #111927;
+}
