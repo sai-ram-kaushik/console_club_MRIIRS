@@ -11,7 +11,6 @@ body{
     box-shadow: 0px 8px 24px rgba(0,0,0,0.1);
     height: 72px;
     position: relative;
-    z-index: -1;
 }
 .wrapper{
     max-width: 1200px;
@@ -38,7 +37,7 @@ nav ul{
     font-size: 24px;
     font-family: "Poppins",sans-serif;
     text-decoration: none;
-    transition: 0.5s ease-in-out;
+    /* transition: 0.5s ease-in-out; */
 }
 .logo .logo-img{
     width: 50px;
@@ -80,9 +79,10 @@ nav ul{
 
     color: #FFFFFF;
 }
-ul li a:hover{
+nav li a:hover{
     color: #9FEF00;
 }
+
 .main-container .about_club{
     position: absolute;
     width: 652px;
@@ -98,8 +98,4 @@ ul li a:hover{
 
     color: #FFFFFF;
 }
-.nav-container.black{
-    background:#000;
-    border-radius: 5px;
-    transition: 1s;
-}
+
